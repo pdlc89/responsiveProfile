@@ -10,6 +10,7 @@ const Navbar = props => (
         <a id="my-work">Work</a>
         <a href="https://www.linkedin.com/in/pedro-de-la-cruz-martinez-062620101/">LinkedIn</a>
         <a id="contact">Contact</a>
+        <p className="copy-write"> Pedro De La Cruz Martinez &#169; 2018</p>
     </nav>
 );
 

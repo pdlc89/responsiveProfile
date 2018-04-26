@@ -3,12 +3,12 @@ import "./Card.css";
 
 
 const Card = props => (
-    <div className="card">
+    <div className="cardy">
         <div key={props.Works.id}>
-        <p>{props.Works.name} </p>
-            {/* <a href={props.Works.url}> */}
-            {/* <img src={props.Works.image} alt="works"/> */}
-           {/* </a> */}
+        <a href={props.Works.url}>
+        <p className="work-name">{props.Works.name} </p>
+        <img className="img-tag" alt="button" value={props.Works.id} src={props.Works.image} />
+        </a>
         </div>
     </div>
 

@@ -2,7 +2,7 @@
     {
     "id": 1,
     "name": "Giphy",
-    "image": "./cartoons.png",
+    "image": "http://ksassets.timeincuk.net/wp/uploads/sites/55/2017/03/simpsons-the-great-phatsby-1-920x584.jpg",
     "url": "https://pdlc89.github.io/giphy/"
 }
 ]

@@ -2,11 +2,22 @@
 .main {
     padding-top: 15%;
     padding-bottom: 50%;
+    /* margin-left: 20%; */
 }
 .name {
     color: #3c4759;
     font-size: 5.5em;
 }
-.greeting {
+.greetings {
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     color: #626d54;
+
+}
+
+.contents {
+    font-weight: bold;
+    text-align: center;
 }
