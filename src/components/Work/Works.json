@@ -2,7 +2,22 @@
     {
     "id": 1,
     "name": "Giphy",
-    "image": "http://ksassets.timeincuk.net/wp/uploads/sites/55/2017/03/simpsons-the-great-phatsby-1-920x584.jpg",
-    "url": "https://pdlc89.github.io/giphy/"
+    "image": "http://www.stickpng.com/assets/images/593008c73919fe0ee3614dae.png",
+    "url": "https://pdlc89.github.io/giphy/",
+    "synopsis": "This simple application demonstrates using AJAX API calls and JQuery."
+},
+{
+    "id": 2,
+    "name": "Mystery Crystals",
+    "image": "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/c/cd/Crystal_alliance.png/revision/latest?cb=20151121233509",
+    "url": "https://pdlc89.github.io/Mystery-Crystals/",
+    "synopsis": "Mystery Crystals is a game that in wich the user has to collect crystals that add up to a target value."
+},
+{
+    "id": 3,
+    "name": "Trivia Game",
+    "image": "https://vignette.wikia.nocookie.net/thesimssocial/images/a/ae/Tycoon_mystery_box_icon.png/revision/latest?cb=20120729235042",
+    "url": "https://pdlc89.github.io/TriviaGame/",
+    "synopsis": "This game demonstrates the use of time restrictions with in functions using the JQuery library."
 }
 ]
