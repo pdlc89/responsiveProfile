@@ -6,8 +6,7 @@ const Intro = props => (
       <div className="contents">
             <p className="greetings">Hi!, I'm</p>
             <p className="name">Pedro</p>
-            <p>De La Cruz Martinez</p>
-            <p className="explore">Come and explore</p>
+            <p className="last">De La Cruz Martinez</p>
       </div>
       </div>
 );

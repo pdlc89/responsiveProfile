@@ -1,11 +1,28 @@
 .about {
     padding-top: 10%;
+    text-align: center;
 }
-h3 {
-    padding-left: 10%;
+.title1 {
+    font-size: 160%;
 }
 .summery {
     margin-left: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
     word-wrap: break-word;
     color: Black;
+}
+
+@media screen and (max-width: 450px) {
+    .about {
+        margin-top: 20%;
+        padding: 0;
+    }
+    .summery {
+        display: block;
+        margin: auto;
+    }
+    .title1 {
+        padding-left: 0;
+    }
 }

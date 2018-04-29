@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar.js';
 import Home from './components/Home/Home.js';
 import About from './components/About/About.js';
 import Work from './components/Work/Work.js';
+import Contact from './components/Contact/Contact.js'
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Home />
           <About />
           <Work />
+          <Contact />
           </div>
       )
   }

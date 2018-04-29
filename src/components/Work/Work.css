@@ -1,11 +1,29 @@
 .cc {
     color: black;
 }
-/* .card {
-    display: inline-block;
-    height: auto;
-    width: 20%;
-} */
 .work {
-   color: balck;
+    margin-top: 10%;
+    text-align: center;
+    color: black;
 }
+.title2 {
+    font-size: 160%;
+}
+.github {
+    display: inline;
+    margin: auto;
+    padding-left: 1%;
+    max-width: 6%;
+    max-height: auto;
+}
+@media screen and (max-width: 450px) {
+    .github {
+        max-width: 20%;
+        max-height: auto;
+        margin-right: 5%;
+    }
+    .title2 {
+        padding-left: 0;
+    }
+}
+

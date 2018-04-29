@@ -5,19 +5,31 @@
     /* margin-left: 20%; */
 }
 .name {
-    color: #3c4759;
+    -webkit-text-fill-color: #3c4759;; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #253327;
     font-size: 5.5em;
 }
 .greetings {
-    color: black;
+    color: #626d54;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    color: #626d54;
-
+}
+.last {
+    font-size: 1.5em;
+    -webkit-text-fill-color: #253327;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .contents {
     font-weight: bold;
     text-align: center;
+}
+@media screen and (max-width: 450px) {
+    .main {
+        margin-top: 15%;
+        margin-left: 2%;
+    }
 }

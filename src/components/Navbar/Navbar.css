@@ -12,7 +12,7 @@
         left: 0;
         background-color: #111; /* Black */
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 20px;
+        padding-top: 2%;
     }
     a { 
         cursor: pointer; 
@@ -40,7 +40,7 @@
     
     /* Style page content */
     .main {
-        margin-left: 160px; /* Same as the width of the sidebar */
+        margin-left: 10%; 
         padding: 0px 10px;
     }
     
@@ -48,23 +48,36 @@
     @media screen and (max-width: 450px) {
         .sidenav {
             width: 100%;
-            max-height: 20%;
+            max-height: 16%;
+            padding-top: 0.5%;
         }
         .bunny {
-            max-width: 20%;
+            padding-left: 0;
+            display: block;
+            margin: auto;
+            max-width: 100%;
             max-height: auto;
-            padding-left: 5%;
         }
         .sidenav a {
-            padding-left: .5%;
+            padding: 0 0 0 0;
+            padding-left: 3%;
+            padding-top: 5%;
             text-decoration: none;
             font-size: 100%;
             color: #818181;
             display: inline-block;
+            padding-bottom: 0;
+        }
+        .contact-link {
+            padding-left: 0.5;
+            max-width: 25%;
+            padding-left: 0;
         }
         .copy-write {
+            text-align: center;
+            padding-top: 0;
             margin-left: 10%;
-            font-size: .50em;
-            color: wheat;
+            font-size: .30em;
+            color: black;
         }
     }

@@ -1,0 +1,84 @@
+.clickMe {
+    display: inline;
+    margin: auto;
+    text-align: center;
+    
+}
+.myButton {
+    max-width: 50%;
+    max-height: auto;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-radius: 25%;
+    border-color: rgba(30, 99, 104, 0.467);
+    background-color: aqua;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-size: 250%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* Will cause shaking when hovered over */
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+.myButton:hover {
+    animation: shake 0.75s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+/****** Styling for my information ******/
+.myInfo {
+    max-width: 70%;
+    max-height: auto;
+    display: block;
+    margin: auto;
+    margin-top:10%;
+    padding-bottom: 10%;
+}
+.meEating {
+    float: left;
+    transform: rotate(90deg);
+    max-width: 20%;
+    max-height: auto;
+    border-radius: 50%;
+}
+
+/****** Mobile Responsive ******/
+@media screen and (max-width: 450px) {
+    .myButton {
+        font-weight: bold;
+        font-size: 100%
+    }
+    .myInfo {
+        display: block;
+        margin: auto;
+        margin-top: 15%;
+        margin-bottom: 20%;
+        text-align: center;
+    }
+    .meEating {
+        transform: rotate(90deg);
+        max-width: 90%;
+        float: none;
+        padding-bottom: 10%;
+    }
+}
