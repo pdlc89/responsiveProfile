@@ -17,6 +17,9 @@
     max-height: auto;
 }
 @media screen and (max-width: 450px) {
+    .work {
+        padding-top: 30%;
+    }
     .github {
         max-width: 20%;
         max-height: auto;

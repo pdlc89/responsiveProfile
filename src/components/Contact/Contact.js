@@ -24,7 +24,7 @@ class Contact extends React.Component{
     </div>
     if(this.state.isClicked) {
     return(
-    <div className="myInfo">
+    <div className="ME">
       <img className="meEating" alt="button" src={Me} />
       <p className="number">Email: <b>pcruz9332@gmail.com</b></p>
       <p className="number">Cell: <b>(714) 272-6549</b></p>
@@ -33,7 +33,7 @@ class Contact extends React.Component{
     )
   }else {
     return (
-      <div className="clickMe">
+      <div className="ME">
       <button className="myButton"onClick={this.handleClick} checked="True">Click Here To View Contact Information</button>
       </div>
     )
