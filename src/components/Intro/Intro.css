@@ -5,9 +5,9 @@
     /* margin-left: 20%; */
 }
 .name {
-    -webkit-text-fill-color: #3c4759;; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #546048;; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #253327;
+    -webkit-text-stroke-color: #36412b;
     font-size: 5.5em;
 }
 .greetings {
@@ -18,8 +18,8 @@
 }
 .last {
     font-size: 1.5em;
-    -webkit-text-fill-color: #253327;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: #546048 ;
+    -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
 }
 

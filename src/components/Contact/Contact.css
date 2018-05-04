@@ -76,15 +76,15 @@
     }
     .ME {
         display: block;
-        margin-left: 0;
+        margin-left: -5%;
         margin: auto;
         margin-top: 15%;
         margin-bottom: 20%;
         text-align: center;
     }
     .meEating {
-        transform: rotate(90deg);
-        max-width: 90%;
+        max-width: 100%;
+        margin-left: 0;
         float: none;
         padding-bottom: 10%;
     }

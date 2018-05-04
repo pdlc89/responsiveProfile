@@ -19,5 +19,12 @@
     "image": "https://vignette.wikia.nocookie.net/thesimssocial/images/a/ae/Tycoon_mystery_box_icon.png/revision/latest?cb=20120729235042",
     "url": "https://pdlc89.github.io/TriviaGame/",
     "synopsis": "This game demonstrates the use of time restrictions with in functions using the JQuery library."
+},
+{
+    "id": 4,
+    "name": "GitHub",
+    "image": "https://assets-cdn.github.com/images/modules/logos_page/Octocat.png",
+    "url": "https://github.com/pdlc89",
+    "synopsis": "More of my work could be found here."
 }
 ]
