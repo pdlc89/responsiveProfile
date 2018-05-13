@@ -1,27 +1,34 @@
 [
     {
-    "id": 1,
+        "id": 1,
+        "name": "TeachAid",
+        "image": "https://github.com/rampagesang/teachaid/blob/master/client/public/images/ableft.png?raw=true",
+        "url": "https://vast-falls-75429.herokuapp.com/",
+        "synopsis": "This is a collaborative project that was done by me and 3 of my classmates. It is a web application that organizes nominations of grade school students for monthly awards. It is done in a MERN Stack."
+    },
+    {
+    "id": 2,
     "name": "Giphy",
     "image": "http://www.stickpng.com/assets/images/593008c73919fe0ee3614dae.png",
     "url": "https://pdlc89.github.io/giphy/",
     "synopsis": "This simple application demonstrates using AJAX API calls and JQuery."
 },
 {
-    "id": 2,
+    "id": 3,
     "name": "Mystery Crystals",
     "image": "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/c/cd/Crystal_alliance.png/revision/latest?cb=20151121233509",
     "url": "https://pdlc89.github.io/Mystery-Crystals/",
     "synopsis": "Mystery Crystals is a game where the user has to collect crystals that add up to a randomly generated target value."
 },
 {
-    "id": 3,
+    "id": 4,
     "name": "Trivia Game",
     "image": "https://vignette.wikia.nocookie.net/thesimssocial/images/a/ae/Tycoon_mystery_box_icon.png/revision/latest?cb=20120729235042",
     "url": "https://pdlc89.github.io/TriviaGame/",
     "synopsis": "This game demonstrates the use of time restrictions with in functions using the JQuery library."
 },
 {
-    "id": 4,
+    "id": 5,
     "name": "GitHub",
     "image": "https://assets-cdn.github.com/images/modules/logos_page/Octocat.png",
     "url": "https://github.com/pdlc89",
